@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css?family=Nanum+Myeongjo&display=swap');
+
+html{
+  min-height: 100%;
+  background-color: #8EC8CA;
+}
+
+body{
+  background: none;
+  color: #FFFFFF;
+  font-family: 'Nanum Myeongjo', serif;
+}
+
+a{
+  color: #FFFFFF;
+  text-decoration: underline;
+}
+ a:hover{
+   color: #FFFFFF;
+ }
+
+#cvSlider{
+  position: fixed;
+  top: 100px;
+  width: 100%;
+  bottom: 140px;
+}
+
+.carousel-inner{
+  height: 100%;
+  max-width: 987px;
+  margin: 0 auto;
+}
+
+.carousel-item{
+  height: 100%;
+}
+
+.carousel-item.image-slide-1{
+  background-image: url('../images/ally-m-wide.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.carousel-item.image-slide-2{
+  background-image: url('../images/strong-employee-handbook-1200x628.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.carousel-item.image-slide-3{
+  background-image: url('../images/school.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.carousel-item.image-slider-4{
+  background-image: url('../images/projects.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.carousel-item > .row{
+  height: 100%;
+}
+
+.carousel-indicators {
+  bottom: -55px;
+  z-index: 10;
+}
+
+.carousel-indicators li {
+  background: none;
+  text-indent: initial;
+  height: 30px;
+  border: 0;
+  text-align: center;
+  font-size: 20px;
+  margin: 0 20px;
+}
+
+.modal-content{
+  background-color: rgba(90, 175, 178, .8);
+  border-radius: 0;
+  border: 0;
+}
+
+.close{
+  text-shadow: none;
+  color: #FFFFFF;
+}
+
+.text-container {
+  background-color: rgba(90, 175, 178, .8);
+  padding: 5px 10px;
+  margin: 0 10px;
+}
+
+
+.text-container p{
+  margin: 0;
+}
+
+.list-group-item.active{
+  background-color: rgba(90, 175, 178, .8);
+  border-color: #FFFFFF;
+}
+
+.header {
+  max-width: 987px;
+  margin: 10px auto;
+}
+
+.header h2,
+.header p{
+  text-align: right;
+}
+
+.footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+}
+
+.footer-inner{
+  margin: 20px auto auto;
+  display: inline-block;
+  border-top: 1px solid #FFF;
+  padding-top: 10px;
+}
+
+.footer-inner a{
+  font-size: 26px;
+  margin: 0 10px;
+}
+
+@media (min-width: 576px) {
+  .footer{
+    height: 160px;
+  }
+
+  #cvSlider{
+    top: 150px;
+    bottom: 200px;
+  }
+
+  .footer-inner{
+    margin: 50px auto auto;
+  }
+}
