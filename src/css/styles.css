@@ -106,6 +106,15 @@ a{
   border-color: #FFFFFF;
 }
 
+.project-image{
+   width: 200px;
+   height:auto;
+}
+
+.project-link:hover .project-image{
+  transform: scale(1.5);
+}
+
 .header {
   max-width: 987px;
   margin: 10px auto;
